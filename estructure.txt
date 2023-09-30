@@ -1,0 +1,55 @@
+├── fixtures
+├── integration
+│   ├── ui
+│   │   ├── admin
+│   │   │   ├── pages
+│   │   │   │   ├── AdminLoginPage.js
+│   │   │   │   ├── AdminHomePage.js
+│   │   │   ├── tests
+│   │   │   │   ├── AdminLogin.spec.js
+│   │   │   │   ├── AdminHome.spec.js
+│   │   ├── client
+│   │   │   ├── pages
+│   │   │   │   ├── ClientLoginPage.js
+│   │   │   │   ├── ClientHomePage.js
+│   │   │   ├── tests
+│   │   │   │   ├── ClientLogin.spec.js
+│   │   │   │   ├── ClientHome.spec.js
+│   ├── api
+│   │   ├── admin
+│   │   │   ├── authentication.spec.js
+│   │   │   ├── users.spec.js
+│   │   ├── client
+│   │   │   ├── authentication.spec.js
+│   │   │   ├── users.spec.js
+│   ├── database
+│   │   ├── db.spec.js
+├── plugins
+├── support
+├── performance
+│   ├── performance.spec.js
+├── security
+│   ├── security.spec.js
+├── accessibility
+│   ├── accessibility.spec.js
+├── localization
+│   ├── localization.spec.js
+├── regression
+│   ├── regression.spec.js
+├── smoke
+│   ├── smoke.spec.js
+├── load
+│   ├── load.spec.js
+├── stress
+│   ├── stress.spec.js
+├── compatibility
+│   ├── browser
+│   │   ├── chrome.spec.js
+│   │   ├── firefox.spec.js
+│   ├── device
+│   │   ├── desktop.spec.js
+│   │   ├── mobile.spec.js
+├── continuous_integration
+│   ├── ci.spec.js
+├── update_migration
+│   ├── update.spec.js
