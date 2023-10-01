@@ -1,4 +1,6 @@
+// Importamos la librería Cypress-Xpath para habilitar el uso de Xpath en las pruebas
 require('cypress-xpath')
+
 // Importamos la clase `login` del archivo 'login.js'
 const { login } = require('../../pages/login/login.js');
 
@@ -27,8 +29,7 @@ describe('User login', () => {
         // Enviamos el formulario de inicio de sesión
         login.submitLogin();
 
-        // Acierto que corrobora logueo exitoso
+        // Acierto que corrobora logueo fallido
         cy.get('.oxd-alert-content > .oxd-text').contains('Invalid credentials');
-
     });
 });
