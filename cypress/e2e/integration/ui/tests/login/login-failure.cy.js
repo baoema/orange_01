@@ -27,7 +27,7 @@ describe('User login', () => {
         // Enviamos el formulario de inicio de sesión
         login.submitLogin();
 
-        // Se realiza una acierto que corrobora logueo exitoso
+        // Acierto que corrobora logueo exitoso
         cy.get('.oxd-alert-content > .oxd-text').contains('Invalid credentials');
 
     });
