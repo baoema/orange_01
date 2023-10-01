@@ -14,8 +14,6 @@ describe('User login', () => {
     beforeEach(() => {
         // Visitamos la página de inicio de sesión
         cy.visit(loginPage);
-        
-        
     });
 
     // Prueba para validar el inicio de sesión
